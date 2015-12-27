@@ -11,7 +11,7 @@
  '(custom-enabled-themes (quote (monokai)))
  '(custom-safe-themes
    (quote
-    ("a1289424bbc0e9f9877aa2c9a03c7dfd2835ea51d8781a0bf9e2415101f70a7e" "419637b7a8c9cb43f273980f0c9879c0cbadace6b38efac0281e031772c84eb2" "3c4a19a2b778b9f54f8c9b4bc419184c07198fd31f2a02e6a92e0c647312f08d" "790e74b900c074ac8f64fa0b610ad05bcfece9be44e8f5340d2d94c1e47538de" "196cc00960232cfc7e74f4e95a94a5977cb16fd28ba7282195338f68c84058ec" "f9d34593e9dd14b2d798494609aa0fddca618145a5d4b8a1819283bc5b7a2bfd" "8e7ca85479dab486e15e0119f2948ba7ffcaa0ef161b3facb8103fb06f93b428" "0aca3a26459bbb43a77f34bc22851c05c0a5d70d3230cbcdbda4fec20fef77e6" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" default)))
+    ("8577da1641ed4bdf255341ca92e3d0e49c9f4d574458f09ce78159690442cade" "a1289424bbc0e9f9877aa2c9a03c7dfd2835ea51d8781a0bf9e2415101f70a7e" "419637b7a8c9cb43f273980f0c9879c0cbadace6b38efac0281e031772c84eb2" "3c4a19a2b778b9f54f8c9b4bc419184c07198fd31f2a02e6a92e0c647312f08d" "790e74b900c074ac8f64fa0b610ad05bcfece9be44e8f5340d2d94c1e47538de" "196cc00960232cfc7e74f4e95a94a5977cb16fd28ba7282195338f68c84058ec" "f9d34593e9dd14b2d798494609aa0fddca618145a5d4b8a1819283bc5b7a2bfd" "8e7ca85479dab486e15e0119f2948ba7ffcaa0ef161b3facb8103fb06f93b428" "0aca3a26459bbb43a77f34bc22851c05c0a5d70d3230cbcdbda4fec20fef77e6" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" default)))
  '(fci-rule-color "#14151E")
  '(font-use-system-font t)
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
@@ -74,11 +74,12 @@
 ;(linum-mode 1)
 (require 'helm)
 (global-set-key(kbd "M-x") 'helm-M-x)
-;(load-theme 'atom-dark t)
-(load-theme 'green-phosphor t)
+(load-theme 'atom-dark t)
+;(load-theme 'green-phosphor t)
 ;(load-theme 'monokai t)
 (load-theme 'graphene-meta t)
 
+;(load-theme 'dakrone t)
 
 (add-to-list 'default-frame-alist '(font . "Inconsolata Medium 11" ))
 (set-face-attribute 'default t :font "Inconsolata Medium 11" )
