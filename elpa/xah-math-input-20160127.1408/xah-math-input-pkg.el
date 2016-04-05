@@ -1,0 +1,1 @@
+(define-package "xah-math-input" "20160127.1408" "a minor mode for inputting math and Unicode symbols." 'nil :url "http://ergoemacs.org/emacs/xmsi-math-symbols-input.html" :keywords '("abbrev" "convenience" "unicode" "math" "latex"))
