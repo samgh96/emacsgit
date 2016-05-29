@@ -83,7 +83,7 @@
                               :family "Terminus" :foundry "xos4"
                               :slant normal :weight normal
                               :height 100 :width normal))))
-   '(cursor ((t (:background "#0A3B00" :foreground "#ffffff"))))
+   '(cursor ((t (:background "#00FCF8" :foreground "#ffffff"))))
    '(highlight ((t (:background "brown4" :foreground nil))))
    '(border ((t (:background "#888a85"))))
    '(fringe ((t (:background "#333333"))))
@@ -98,7 +98,7 @@
    '(spaceline-flycheck-error ((t (:foreground "#ff0066" :background "#333333"))))
    '(spaceline-flycheck-info ((t (:foreground "#ffaa00" :background "#333333"))))
    '(spaceline-flycheck-warning ((t (:foreground "#ffaa00" :background "#333333"))))
-   '(region ((t (:background "#444444"))))
+   '(region ((t (:background "#064C45"))))
    '(link ((t (:underline t :foreground "#33ff99"))))
    '(custom-link ((t (:inherit 'link)))) 
    '(match ((t (:bold t :background "#e9b96e" :foreground "#2e3436"))))
@@ -253,7 +253,7 @@
                     :foreground "yellow"
 		    )
 
-
+ 
 ;;;###autoload
 (when (and load-file-name (boundp 'custom-theme-load-path))
  (add-to-list

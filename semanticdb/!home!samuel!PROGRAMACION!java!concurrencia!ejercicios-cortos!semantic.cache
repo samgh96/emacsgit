@@ -1,0 +1,201 @@
+;; Object ejercicios-cortos/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ejercicios-cortos/"
+  :tables
+  (list
+    (semanticdb-table "CC_09_PmultiCMon.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("es.upm.babel.cclib.MultiAlmacen" include nil nil [1 40])
+            ("es.upm.babel.cclib.MultiProductor" include nil nil [41 82])
+            ("es.upm.babel.cclib.MultiConsumidor" include nil nil [83 125])
+            ("CC_09_PmultiCMon" type
+               (:members 
+                  ( ("main" function
+                       (:throws ("InterruptedException")
+                        :typemodifiers ("public" "static" "final")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [332 351]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [302 2060]))                  
+                :type "class")
+                nil [273 2062]))          
+      :file "CC_09_PmultiCMon.java"
+      :pointmax 2063
+      :fsize 2069
+      :lastmodtime '(22195 1539 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "MultiAlmacenJCSP.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("es.upm.babel.cclib.Producto" include nil nil [1 36])
+            ("es.upm.babel.cclib.MultiAlmacen" include nil nil [37 76])
+            ("org.jcsp.lang.*" include nil nil [109 132])
+            ("MultiAlmacenJCSP" type
+               (:interfaces ("MultiAlmacen" "CSProcess")
+                :members 
+                  ( ("chAlmacenar" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Any2OneChannel")
+                        (reparse-symbol class_member_declaration) [263 324])
+                    ("chExtraer" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Any2OneChannel")
+                        (reparse-symbol class_member_declaration) [332 391])
+                    ("TAM" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [396 412])
+                    ("chDatos" variable
+                       (:dereference 1
+                        :typemodifiers ("private" "final")
+                        :type "Any2OneChannel")
+                        (reparse-symbol class_member_declaration) [451 490])
+                    ("MultiAlmacenJCSP" function
+                       (:constructor-flag t
+                        :typemodifiers ("private"))
+                        (reparse-symbol class_member_declaration) [580 655])
+                    ("MultiAlmacenJCSP" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("n" variable (:type "int") (reparse-symbol formal_parameters) [685 690]))                          )
+                        (reparse-symbol class_member_declaration) [661 915])
+                    ("almacenar" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("productos" variable
+                               (:dereference 1
+                                :type "Producto")
+                                (reparse-symbol formal_parameters) [943 963]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [921 1085])
+                    ("extraer" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("n" variable (:type "int") (reparse-symbol formal_parameters) [1117 1122]))                          
+                        :type "Producto[]")
+                        (reparse-symbol class_member_declaration) [1091 1361])
+                    ("ALMACENAR" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1395 1434])
+                    ("EXTRAER" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1439 1476])
+                    ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1481 3070]))                  
+                :type "class")
+                nil [134 3072]))          
+      :file "MultiAlmacenJCSP.java"
+      :pointmax 3073
+      :fsize 3074
+      :lastmodtime '(22341 61842 296790 960000)
+      :unmatched-syntax nil)
+    (semanticdb-table "CC_10_PmultiCJCSP.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("es.upm.babel.cclib.MultiAlmacen" include nil nil [1 40])
+            ("es.upm.babel.cclib.MultiProductor" include nil nil [41 82])
+            ("es.upm.babel.cclib.MultiConsumidor" include nil nil [83 125])
+            ("org.jcsp.lang.*" include nil nil [126 149])
+            ("CC_10_PmultiCJCSP" type
+               (:members 
+                  ( ("main" function
+                       (:throws ("InterruptedException")
+                        :typemodifiers ("public" "static" "final")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [365 384]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [335 2217]))                  
+                :type "class")
+                nil [305 2219]))          
+      :file "CC_10_PmultiCJCSP.java"
+      :pointmax 2220
+      :fsize 2227
+      :lastmodtime '(22195 1539 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "MultiAlmacenJCSP.todo.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("es.upm.babel.cclib.Producto" include nil nil [1 36])
+            ("es.upm.babel.cclib.MultiAlmacen" include nil nil [37 76])
+            ("org.jcsp.lang.*" include nil nil [109 132])
+            ("MultiAlmacenJCSP" type
+               (:interfaces ("MultiAlmacen" "CSProcess")
+                :members 
+                  ( ("chAlmacenar" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Any2OneChannel")
+                        (reparse-symbol class_member_declaration) [263 324])
+                    ("chExtraer" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Any2OneChannel")
+                        (reparse-symbol class_member_declaration) [329 388])
+                    ("TAM" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [393 409])
+                    ("chDatos" variable
+                       (:dereference 1
+                        :typemodifiers ("private" "final")
+                        :type "Any2OneChannel")
+                        (reparse-symbol class_member_declaration) [448 487])
+                    ("MultiAlmacenJCSP" function
+                       (:constructor-flag t
+                        :typemodifiers ("private"))
+                        (reparse-symbol class_member_declaration) [577 611])
+                    ("MultiAlmacenJCSP" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("n" variable (:type "int") (reparse-symbol formal_parameters) [641 646]))                          )
+                        (reparse-symbol class_member_declaration) [617 814])
+                    ("almacenar" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("productos" variable
+                               (:dereference 1
+                                :type "Producto")
+                                (reparse-symbol formal_parameters) [842 862]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [820 1025])
+                    ("extraer" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("n" variable (:type "int") (reparse-symbol formal_parameters) [1057 1062]))                          
+                        :type "Producto[]")
+                        (reparse-symbol class_member_declaration) [1031 1358])
+                    ("ALMACENAR" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1392 1431])
+                    ("EXTRAER" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1436 1473])
+                    ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1478 3205]))                  
+                :type "class")
+                nil [134 3207]))          
+      :file "MultiAlmacenJCSP.todo.java"
+      :pointmax 3208
+      :fsize 3217
+      :lastmodtime '(22341 31978 633329 913000)
+      :unmatched-syntax nil))
+  :file "!home!samuel!PROGRAMACION!java!concurrencia!ejercicios-cortos!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

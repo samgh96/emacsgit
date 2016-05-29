@@ -1,0 +1,4 @@
+(provide 'global-modes)
+(global-company-mode t)
+(global-nlinum-mode t)
+(smartparens-global-mode t)

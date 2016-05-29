@@ -1,0 +1,73 @@
+;; Object mozilla_samuel0/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mozilla_samuel0/"
+  :tables
+  (list
+    (semanticdb-table "CC_10_P10CJCSP.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("es.upm.babel.cclib.Almacen" include nil nil [1 35])
+            ("es.upm.babel.cclib.Productor" include nil nil [36 72])
+            ("es.upm.babel.cclib.Consumidor" include nil nil [73 110])
+            ("org.jcsp.lang.*" include nil nil [112 135])
+            ("CC_10_P10CJCSP" type
+               (:members 
+                  ( ("CC_10_P10CJCSP" function
+                       (:constructor-flag t
+                        :typemodifiers ("private"))
+                        (reparse-symbol class_member_declaration) [338 370])
+                    ("main" function
+                       (:throws ("InterruptedException")
+                        :typemodifiers ("public" "static" "final")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [406 425]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [376 1388]))                  
+                :type "class")
+                nil [283 1390]))          
+      :file "CC_10_P10CJCSP.java"
+      :pointmax 1391
+      :fsize 1391
+      :lastmodtime '(22340 51138 649993 692000)
+      :unmatched-syntax nil)
+    (semanticdb-table "ProductorCSP.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("es.upm.babel.cclib.Fabrica" include nil nil [1 35])
+            ("es.upm.babel.cclib.Producto" include nil nil [36 71])
+            ("org.jcsp.lang.*" include nil nil [73 96])
+            ("ProductorCSP" type
+               (:interfaces ("CSProcess")
+                :members 
+                  ( ("petAlmacenar" variable
+                       (:typemodifiers ("private")
+                        :type "ChannelOutput")
+                        (reparse-symbol class_member_declaration) [233 268])
+                    ("ProductorCSP" function
+                       (:constructor-flag t
+                        :typemodifiers ("private"))
+                        (reparse-symbol class_member_declaration) [317 347])
+                    ("ProductorCSP" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("petAlmacenar" variable (:type "ChannelOutput") (reparse-symbol formal_parameters) [373 399]))                          )
+                        (reparse-symbol class_member_declaration) [353 450])
+                    ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [456 594]))                  
+                :type "class")
+                nil [135 596]))          
+      :file "ProductorCSP.java"
+      :pointmax 597
+      :fsize 597
+      :lastmodtime '(22340 51226 989993 36000)
+      :unmatched-syntax nil))
+  :file "!tmp!mozilla_samuel0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

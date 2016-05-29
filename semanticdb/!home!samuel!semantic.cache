@@ -1,0 +1,164 @@
+;; Object samuel/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "samuel/"
+  :tables
+  (list
+    (semanticdb-table "test.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("Bots: An introduction for developers" section nil nil [70 826])
+            ("\\n    <div class=\"dev_page_wrap\">\\n      <div class=\"dev_page_head navbar navbar-static-top navbar-tg\">\\n        <div class=\"navbar-inner\">\\n          <div class=\"container clearfix\">\\n            <ul class=\"nav navbar-nav navbar-right hidden-xs\"><li class=\"navbar-twitter\"><a href=\"https://twitter.com/telegram\" target=\"_blank\" data-track=\"Follow/Twitter\" onclick=\"trackDlClick(this, event)\"><i class=\"icon icon-twitter\">" section (:members 
+              ( ("Twitter" anchor nil nil [1106 1109])
+                ("Home" anchor nil nil [1354 1357])
+                ("FAQ" anchor nil nil [1417 1420])
+                ("Apps" anchor nil nil [1482 1485])
+                ("API" anchor nil nil [1540 1543])
+                ("Protocol" anchor nil nil [1582 1585])
+                ("Schema" anchor nil nil [1633 1636])
+                ("Bots: An introduction for developers" section (:members 
+                  ( ("inline requests" anchor nil nil [2162 2165])
+                    ("bot API" anchor nil nil [2256 2259])
+                    ("1. What can I do with bots?" section (:members 
+                      ( ("\\n" anchor nil nil [2482 2485])
+                        ("Forbes Bot" anchor nil nil [2950 2953])
+                        ("TechCrunch Bot" anchor nil nil [3023 3026])
+                        ("Image Bot" anchor nil nil [3242 3245])
+                        ("GIF bot" anchor nil nil [3313 3316])
+                        ("IMDB bot" anchor nil nil [3377 3380])
+                        ("Wiki bot" anchor nil nil [3443 3446])
+                        ("Music bot" anchor nil nil [3509 3512])
+                        ("Youtube bot" anchor nil nil [3600 3603])
+                        ("Poll bot" anchor nil nil [3852 3855])
+                        ("GitHub bot" anchor nil nil [3921 3924])
+                        ("Markdown bot" anchor nil nil [3994 3997])
+                        ("Sticker bot" anchor nil nil [4064 4067])
+                        ("Trivia bot" anchor nil nil [4366 4369])
+                        ("HotOrBot" anchor nil nil [4601 4604]))                      ) nil [2294 4823])
+                    ("2. How do bots work?" section (:members 
+                      ( ("commands" anchor nil nil [5140 5143])
+                        ("TechCrunch" anchor nil nil [5298 5301])
+                        ("Forbes" anchor nil nil [5361 5364])
+                        ("inline bots" anchor nil nil [5552 5555])
+                        ("Bot API" anchor nil nil [5986 5989])
+                        ("this page \\xc2\\xbb" anchor nil nil [6095 6098]))                      ) nil [4823 6158])
+                    ("3. How do I create a bot?" section (:members 
+                      ( ("\\n" anchor nil nil [6340 6343])
+                        ("BotFather" anchor nil nil [6596 6599])
+                        ("below" anchor nil nil [6661 6664])
+                        ("Bot API manual" anchor nil nil [6810 6813])
+                        ("here \\xc2\\xbb" anchor nil nil [6980 6983]))                      ) nil [6158 7042])
+                    ("4. How are bots different from humans?" section (:members 
+                      ( ("@TriviaBot" anchor nil nil [7840 7843])
+                        ("@GitHub_bot" anchor nil nil [7896 7899])
+                        ("Privacy mode" anchor nil nil [8036 8039]))                      ) nil [7042 8183])
+                    ("5. Bot perks" section (:members 
+                      ( ("two" anchor nil nil [8357 8360])
+                        ("kinds" anchor nil nil [8386 8389])
+                        ("default commands" anchor nil nil [8488 8491])
+                        ("deep linking" anchor nil nil [8540 8543])
+                        ("markdown support" anchor nil nil [8592 8595])
+                        ("Inline mode" section (:members 
+                          ( ("\\n" anchor nil nil [8826 8829])
+                            ("inline queries" anchor nil nil [9065 9068])
+                            ("blog" anchor nil nil [9587 9590])
+                            ("@sticker" anchor nil nil [9703 9706])
+                            ("@music" anchor nil nil [9758 9761])
+                            ("\\n" anchor nil nil [9851 9854])
+                            ("switch between inline and PM modes" anchor nil nil [10141 10144])
+                            ("Read more about the inline mode \\xc2\\xbb" anchor nil nil [10252 10255]))                          ) nil [8684 10340])
+                        ("Keyboards" section (:members 
+                          ( ("ReplyKeyboardMarkup" anchor nil nil [10792 10795])
+                            ("\\n\\n    <a href=\"/file/811140880/1/jS-YSVkDCNQ/b397dfcefc6da0dc70\" target=\"_blank\"><img src=\"/file/811140880/1/jS-YSVkDCNQ/b397dfcefc6da0dc70\" title=\"Keyboard for a calculator bot. Because you can.\" style=\"max-height: 300px; padding: 10px 5px\" />" anchor nil nil [11207 11210])
+                            ("\\n\\n    <a href=\"/file/811140733/2/KoysqJKQ_kI/a1ee46a377796c3961\" target=\"_blank\"><img src=\"/file/811140733/2/KoysqJKQ_kI/a1ee46a377796c3961\" title=\"Keyboard for a trivia bot\" style=\"max-height: 300px; padding: 10px 5px\" />" anchor nil nil [11433 11436])
+                            ("\\n" anchor nil nil [11683 11686])
+                            ("Bot API manual" anchor nil nil [12020 12023])
+                            ("sendMessage" anchor nil nil [12064 12067]))                          ) nil [10340 12134])
+                        ("Inline keyboards and on-the-fly updating" section (:members 
+                          ( ("callback buttons" anchor nil nil [12820 12823])
+                            ("URL buttons" anchor nil nil [12885 12888])
+                            ("switch to inline buttons" anchor nil nil [12943 12946])
+                            ("\\n    <a href=\"  /file/811140659/1/RRJyulbtLBY/ea6163411c7eb4f4dc\" target=\"_blank\"><img src=\"  /file/811140659/1/RRJyulbtLBY/ea6163411c7eb4f4dc\" title=\"More callback buttons in @music\"  style=\"width: 240px; padding: 10px 5px;\" />" anchor nil nil [13046 13049])
+                            ("\\n     <a href=\"/file/811140999/1/2JSoUVlWKa0/4fad2e2743dc8eda04\" target=\"_blank\"><img src=\"/file/811140999/1/2JSoUVlWKa0/4fad2e2743dc8eda04\" title=\"A URL button\" style=\"width:240px; padding:10px 5px\"/>" anchor nil nil [13270 13273])
+                            ("\\n\\n" anchor nil nil [13504 13507])
+                            ("@music" anchor nil nil [13929 13932])
+                            ("Read more about inline keyboards and on-the-fly editing \\xc2\\xbb" anchor nil nil [13999 14002]))                          ) nil [12134 14135])
+                        ("Commands" section (:members 
+                          ( ("supported commands" anchor nil nil [14906 14909])
+                            ("BotFather" anchor nil nil [15092 15095])
+                            ("\\n\\n    <a href=\"/file/811140315/2/gf7_D2HbeyM/e3ca2de4de7918f826\" target=\"_blank\"><img src=\"/file/811140315/2/gf7_D2HbeyM/e3ca2de4de7918f826\" title=\"Notice the new button in the input field, right next to the sticker button\" style=\"width: 230px; padding: 10px 5px\" />" anchor nil nil [15533 15536])
+                            ("\\n\\n\\n    <a href=\"/file/811140029/1/s5zv4fbWdhw/a04aefa0ee0557f16a\" target=\"_blank\"><img src=\"/file/811140029/1/s5zv4fbWdhw/a04aefa0ee0557f16a\" title=\"Suggested commands for multiple bots\" style=\"width: 230px; padding: 10px 5px\" />" anchor nil nil [15749 15752])
+                            ("\\n\\n<br><br>\\n" anchor nil nil [16023 16026])
+                            ("Global commands" section (:members 
+                              ( ("Deep linking" anchor nil nil [17177 17180])
+                                ("\\n\\n    <a href=\"/file/811140479/2/1c2zUWhR7sA/98889b2a45f8e42a35\" target=\"_blank\"><img src=\"/file/811140479/2/1c2zUWhR7sA/98889b2a45f8e42a35\" title=\"A bot\\'s profile page, featuring \\'Help\\' and \\'Settings\\' buttons\" style=\"width: 250px; padding: 10px 5px\" />" anchor nil nil [17755 17758])
+                                ("\\n" anchor nil nil [17985 17988]))                              ) nil [16659 18266]))                          ) nil [14135 18266])
+                        ("Formatting: bold, italic, fixed-width text and inline links" section (:members 
+                          ( ("Read more in the Bot API manual \\xc2\\xbb" anchor nil nil [18685 18688]))                          ) nil [18266 18788])
+                        ("Privacy mode" section (:members 
+                          ( ("Commands" anchor nil nil [19591 19594])
+                            ("force reply" anchor nil nil [20454 20457])
+                            ("So what messages exactly will my bot get? \\xc2\\xbb" anchor nil nil [20572 20575]))                          ) nil [18788 20682])
+                        ("Deep linking" section (:members 
+                          ( ("deep linking" anchor nil nil [20819 20822])
+                            ("base64url" anchor nil nil [21616 21619])
+                            ("Deep linking Example" section (:members 
+                              ( ("Create a bot" anchor nil nil [22767 22770])
+                                ("webhook" anchor nil nil [22870 22873])
+                                ("sendMessage" anchor nil nil [23768 23771])
+                                ("Bot API" anchor nil nil [23830 23833]))                              ) nil [22419 23911]))                          ) nil [20682 23911])
+                        ("Location and Number" section (:members 
+                          ( ("\\n" anchor nil nil [24548 24551])
+                            ("Manual: Number and location buttons \\xc2\\xbb" anchor nil nil [24963 24966]))                          ) nil [23911 25073]))                      ) nil [8183 25073])
+                    ("6. BotFather" section (:members 
+                      ( ("Telegram bots \\xc2\\xbb" anchor nil nil [25239 25242])
+                        ("BotFather" anchor nil nil [25301 25304])
+                        ("Create a new bot" section (:members 
+                          ( ("Bot API" anchor nil nil [26440 26443]))                          ) nil [25465 26478])
+                        ("Generate an authorization token for your bot" section nil nil [26478 26828])
+                        ("Edit settings" section (:members 
+                          ( ("privacy mode" anchor nil nil [28678 28681])
+                            ("BOT API MANUAL" anchor nil nil [29051 29054])
+                            ("Bot FAQ \\xc2\\xbb" anchor nil nil [29170 29173])
+                            ("Telegram" section nil nil [29451 29680])
+                            ("About" section (:members 
+                              ( ("About" anchor nil nil [29684 29687])
+                                ("FAQ" anchor nil nil [29753 29756])
+                                ("Blog" anchor nil nil [29808 29811])
+                                ("Press" anchor nil nil [29865 29868]))                              ) nil [29680 29976])
+                            ("Mobile Apps" section (:members 
+                              ( ("Mobile Apps" anchor nil nil [29980 29983])
+                                ("iPhone/iPad" anchor nil nil [30068 30071])
+                                ("Android" anchor nil nil [30134 30137])
+                                ("Windows Phone" anchor nil nil [30200 30203]))                              ) nil [29976 30319])
+                            ("Desktop Apps" section (:members 
+                              ( ("Desktop Apps" anchor nil nil [30323 30326])
+                                ("PC/Mac/Linux" anchor nil nil [30413 30416])
+                                ("Mac OS" anchor nil nil [30485 30488])
+                                ("Web-browser" anchor nil nil [30546 30549]))                              ) nil [30319 30687])
+                            ("Platform" section (:members 
+                              ( ("Platform" anchor nil nil [30691 30694])
+                                ("API" anchor nil nil [30746 30749])
+                                ("Protocol" anchor nil nil [30787 30790])
+                                ("Schema" anchor nil nil [30837 30840]))                              ) nil [30687 31006])
+                            ("About" section (:members 
+                              ( ("About" anchor nil nil [31010 31013]))                              ) nil [31006 31106])
+                            ("Blog" section (:members 
+                              ( ("Blog" anchor nil nil [31110 31113]))                              ) nil [31106 31206])
+                            ("Apps" section (:members 
+                              ( ("Apps" anchor nil nil [31210 31213]))                              ) nil [31206 31306])
+                            ("Platform" section (:members 
+                              ( ("Platform" anchor nil nil [31310 31313]))                              ) nil [31306 31392])
+                            ("Twitter" section (:members 
+                              ( ("Twitter" anchor nil nil [31396 31399]))                              ) nil [31392 31579]))                          ) nil [26828 31579]))                      ) nil [25073 31579]))                  ) nil [1908 31579]))              ) nil [826 31579])
+            ("\\n    <script src=\"/js/jquery.min.js?1\">" section nil nil [31579 31623])
+            ("\\n<script src=\"/js/bootstrap.min.js\">" section nil nil [31623 31668])
+            ("\\n    <script>(function(i,s,o,g,r,a,m){i[\\'GoogleAnalyticsObject\\']=r;i[r]=i[r]||function(){\\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\n})(window,document,\\'script\\',\\'//www.google-analytics.com/analytics.js\\',\\'ga\\');\\n\\nga(\\'create\\', \\'UA-45099287-1\\', \\'telegram.org\\');\\nga(\\'send\\', \\'pageview\\');initDevPageNav();\\nbackToTopInit();\\n" section nil nil [31668 31718])
+            ("(function(i,s,o,g,r,a,m){i[\\'GoogleAnalyticsObject\\']=r;i[r]=i[r]||function(){\\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\n})(window,document,\\'script\\',\\'//www.google-analytics.com/analytics.js\\',\\'ga\\');\\n\\nga(\\'create\\', \\'UA-45099287-1\\', \\'telegram.org\\');\\nga(\\'send\\', \\'pageview\\');initDevPageNav();\\nbackToTopInit();\\n" section nil nil [31718 32201]))          
+      :file "test.html"
+      :pointmax 32201
+      :fsize 32200
+      :lastmodtime '(22341 49740 806842 365000)
+      :unmatched-syntax nil))
+  :file "!home!samuel!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

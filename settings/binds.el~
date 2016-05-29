@@ -1,0 +1,25 @@
+(provide 'binds)
+;; Helm binds
+(global-set-key(kbd "M-x") 'helm-M-x)
+(global-set-key(kbd "C-x b") 'helm-buffers-list)
+(global-set-key(kbd "C-x C-f") 'helm-find-files)
+;; Buffer movement
+(global-set-key (kbd "M-left") 'windmove-left)
+(global-set-key (kbd "M-right") 'windmove-right)
+(global-set-key (kbd "M-up") 'windmove-up)
+(global-set-key (kbd "M-down") 'windmove-down)
+;; Shrinking
+(global-set-key (kbd "M-s-left") 'shrink-window-horizontally)
+(global-set-key (kbd "M-s-right") 'enlarge-window-horizontally)
+(global-set-key (kbd "M-s-up") 'shrink-window)
+(global-set-key (kbd "M-s-down") 'enlarge-window)
+;; Multiple cursors
+;; When you have an active region that spans multiple lines, the following will add a cursor to each line:
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+;; When you want to add multiple cursors not based on continuous lines, but based on keywords in the buffer, use:
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+;; Indent
+(global-set-key (kbd "M-i") 'iwb)
+(global-set-key (kbd "M-s-a") 'tema)

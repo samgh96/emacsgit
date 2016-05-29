@@ -1,0 +1,31 @@
+;; Object bot-telegram/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "bot-telegram/"
+  :tables
+  (list
+    (semanticdb-table "samghbot.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("telebot" include nil nil [3 17])
+            ("telebot" include nil nil [18 43])
+            ("TOKEN" variable nil nil [75 130])
+            ("bot" variable nil nil [190 218])
+            ("" code nil nil [241 261])
+            ("hello" function (:arguments 
+              ( ("message" variable nil (reparse-symbol function_parameters) [272 279]))              ) nil [262 432])
+            ("" code nil nil [607 644])
+            ("hola" function (:arguments 
+              ( ("inline_query" variable nil (reparse-symbol function_parameters) [654 666]))              ) nil [645 857])
+            ("" code nil nil [879 913])
+            ("send_message" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [931 932]))              ) nil [914 1096])
+            ("print" code nil nil [1097 1116])
+            ("bot" code nil nil [1117 1130]))          
+      :file "samghbot.py"
+      :pointmax 1131
+      :fsize 1173
+      :lastmodtime '(22341 53726 513758 439000)
+      :unmatched-syntax nil))
+  :file "!home!samuel!bot-telegram!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
