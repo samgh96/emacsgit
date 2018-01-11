@@ -4,3 +4,8 @@
 (global-company-mode t)
 (global-nlinum-mode t)
 (smartparens-global-mode t)
+(show-smartparens-global-mode t)
+(rainbow-delimiters-mode t)
+(rainbow-identifiers-mode t)
+(global-pretty-mode t)
+(add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))

@@ -22,4 +22,4 @@
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 ;; Indent
 (global-set-key (kbd "M-i") 'iwb)
-(global-set-key (kbd "M-s-a") 'tema)
+(global-set-key (kbd "C-c C-p l") 'plantuml-export-to-latex)
