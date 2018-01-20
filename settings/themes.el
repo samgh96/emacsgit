@@ -2,17 +2,33 @@
 (require 'doom-themes)
 (require 'solaire-mode)
 ;;; Settings (defaults)
-(setq doom-enable-bold t    ; if nil, bolding are universally disabled
-      doom-enable-italic t  ; if nil, italics are universally disabled
+;; (setq doom-enable-bold t    ; if nil, bolding are universally disabled
+;;       doom-enable-italic t  ; if nil, italics are universally disabled
 
-      ;; doom-one specific settings
-      ;;doom-one-brighter-modeline nil
-      ;;doom-one-brighter-comments nil
-      )
-;; Load the theme (doom-one, doom-dark, etc.)
-;(load-theme 'sanityinc-tomorrow-eighties t)
-(load-theme 'rebecca t)
+;;       ;; doom-one specific settings
+;;       ;;doom-one-brighter-modeline nil
+;;       ;;doom-one-brighter-comments nil
+;;       )
+;; ;; Load the theme (doom-one, doom-dark, etc.)
+;; ;(load-theme 'sanityinc-tomorrow-eighties t)
+;; (load-theme 'rebecca t)
 
+;; Global settings (defaults)
+(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+      doom-themes-enable-italic t) ; if nil, italics is universally disabled
+
+;; Load the theme (doom-one, doom-molokai, etc); keep in mind that each theme
+;; may have their own settings.
+(load-theme 'doom-peacock t)
+
+;; Enable flashing mode-line on errors
+(doom-themes-visual-bell-config)
+
+;; Enable custom neotree theme
+(doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
+
+;; Corrects (and improves) org-mode's native fontification.
+(doom-themes-org-config)
 ;;; OPTIONAL
 ;; brighter source buffers (that represent files)
 ;(add-hook 'find-file-hook 'doom-buffer-mode-maybe)
@@ -52,3 +68,5 @@
 (add-to-list 'default-frame-alist '(font . "Input Mono Condensed Light 13" ))
 (set-face-attribute 'default t :font "Input Mono Condensed Light 13" )
 (scroll-bar-mode 0)
+
+;; (set-face-attribute 'org-level-1 nil :height 1.0)
